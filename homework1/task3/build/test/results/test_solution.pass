@@ -1,0 +1,35 @@
+---
+:source:
+  :path: test
+  :file: test_solution.c
+:successes:
+- :test: test_findQuotient1
+  :line: 6
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findQuotient2
+  :line: 12
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findQuotient3
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findQuotient4
+  :line: 24
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findQuotient5
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'Error: Division by zero'
+:time: 0.06247299999995448
