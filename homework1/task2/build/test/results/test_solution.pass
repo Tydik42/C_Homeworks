@@ -3,20 +3,28 @@
   :path: test
   :file: test_solution.c
 :successes:
-- :test: test_swap1
+- :test: test_countZeros1
   :line: 6
   :message: ''
   :unity_test_time: 0
-- :test: test_swap2
-  :line: 16
+- :test: test_countZeros2
+  :line: 13
+  :message: ''
+  :unity_test_time: 0
+- :test: test_countZeros3
+  :line: 20
+  :message: ''
+  :unity_test_time: 0
+- :test: test_countZeros4
+  :line: 27
   :message: ''
   :unity_test_time: 0
 :failures: []
 :ignores: []
 :counts:
-  :total: 2
-  :passed: 2
+  :total: 4
+  :passed: 4
   :failed: 0
   :ignored: 0
 :stdout: []
-:time: 0.04804969998076558
+:time: 0.05933120000008785

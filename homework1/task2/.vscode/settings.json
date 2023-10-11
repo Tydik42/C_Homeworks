@@ -1,7 +1,8 @@
 {
     "ceedlingExplorer.projectPath": "${workspaceFolder}/project.yml",
     "files.associations": {
-        "unity.h": "c"
+        "unity.h": "c",
+        "solution.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
