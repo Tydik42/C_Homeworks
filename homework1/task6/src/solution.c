@@ -50,6 +50,7 @@ int run() {
     sieveOfEratosthenes(n, primes);
     printf("prime numbers not greater than entered number %d:\n", n);
     printSieveOfEratosthenes(n, primes);
+    free(primes);
     printf("Press any key to exit...");
     getch();
     return 0;

@@ -89,6 +89,8 @@ int run() {
     char* string = inputString();
     printf("Your input: %s\n", string);
     printf("Parenthesis sequence %s\n", checkCorrect(string, parenthesis) ? "correct" : "not correct");
+    free(string);
+    free(parenthesis);
     printf("Press any key to exit...");
     getch();
     return 0;
