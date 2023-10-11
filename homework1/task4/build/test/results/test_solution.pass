@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_solution.c
+:successes:
+- :test: test_intToArr1
+  :line: 7
+  :message: ''
+  :unity_test_time: 0
+- :test: test_intToArr2
+  :line: 19
+  :message: ''
+  :unity_test_time: 0
+- :test: test_intToArr3
+  :line: 31
+  :message: ''
+  :unity_test_time: 0
+- :test: test_checker1
+  :line: 44
+  :message: ''
+  :unity_test_time: 0
+- :test: test_checker2
+  :line: 50
+  :message: ''
+  :unity_test_time: 0
+- :test: test_checker3
+  :line: 56
+  :message: ''
+  :unity_test_time: 0
+- :test: test_checker4
+  :line: 62
+  :message: ''
+  :unity_test_time: 0
+- :test: test_calculateLuckyTickets
+  :line: 68
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.28818150000006426
