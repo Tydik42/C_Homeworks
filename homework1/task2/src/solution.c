@@ -23,28 +23,28 @@ int processInputArray() {
         printf("Error: memory could not be allocated");
         return -1;
     }
-	int len = 0;
-	
-    while (1) {
-		int number;
-		printf("Please enter int array element (enter any char to stop): ");
-		if (scanf("%d", &number) != 1) {
-			while (getchar() != '\n') {}
-			break;
-		}
+    int len = 0;
 
-		array = realloc(array, sizeof(int) * (len + 1));
+    while (1) {
+        int number;
+        printf("Please enter int array element (enter any char to stop): ");
+        if (scanf("%d", &number) != 1) {
+            while (getchar() != '\n') {}
+            break;
+        }
+
+        array = realloc(array, sizeof(int) * (len + 1));
         if (array == NULL) {
             printf("Error: memory could not be allocated");
             return -1;
         }
-		array[len++] = number;
-	}
+        array[len++] = number;
+    }
 
     int count = countZeros(array, len);
     printf("Number of zeros in array: %d", count);
     free(array);
     printf("\nPress any key to exit...");
-	getch();
+    getch();
     return 0;
 }
