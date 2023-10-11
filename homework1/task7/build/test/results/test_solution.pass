@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: test_solution.c
+:successes:
+- :test: test_count_occurrences1
+  :line: 4
+  :message: ''
+  :unity_test_time: 0
+- :test: test_count_occurrences2
+  :line: 11
+  :message: ''
+  :unity_test_time: 0
+- :test: test_count_occurrences3
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+- :test: test_count_occurrences4
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.05647800000224379
