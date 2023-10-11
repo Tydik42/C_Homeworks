@@ -1,0 +1,11 @@
+{
+    "ceedlingExplorer.projectPath": "${workspaceFolder}/project.yml",
+    "files.associations": {
+        "unity.h": "c",
+        "solution.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.dimInactiveRegions": true
+}
