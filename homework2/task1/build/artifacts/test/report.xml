@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_negative_number</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_zero</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_one</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_two</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_three</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_seven</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_solution.c::test_recursiveFibonacciCounter_with_large_number</Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_negative_number</Name>
+		</Test>
+		<Test id="9">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_zero</Name>
+		</Test>
+		<Test id="10">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_one</Name>
+		</Test>
+		<Test id="11">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_two</Name>
+		</Test>
+		<Test id="12">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_three</Name>
+		</Test>
+		<Test id="13">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_seven</Name>
+		</Test>
+		<Test id="14">
+			<Name>test/test_solution.c::test_iterativeFibonacciCounter_with_large_number</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>14</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>

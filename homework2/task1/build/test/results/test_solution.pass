@@ -1,0 +1,70 @@
+---
+:source:
+  :path: test
+  :file: test_solution.c
+:successes:
+- :test: test_recursiveFibonacciCounter_with_negative_number
+  :line: 6
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recursiveFibonacciCounter_with_zero
+  :line: 10
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recursiveFibonacciCounter_with_one
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recursiveFibonacciCounter_with_two
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recursiveFibonacciCounter_with_three
+  :line: 22
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recursiveFibonacciCounter_with_seven
+  :line: 26
+  :message: ''
+  :unity_test_time: 0
+- :test: test_recursiveFibonacciCounter_with_large_number
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_negative_number
+  :line: 36
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_zero
+  :line: 40
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_one
+  :line: 44
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_two
+  :line: 48
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_three
+  :line: 52
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_seven
+  :line: 56
+  :message: ''
+  :unity_test_time: 0
+- :test: test_iterativeFibonacciCounter_with_large_number
+  :line: 60
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 14
+  :passed: 14
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 7.8796648000134155
