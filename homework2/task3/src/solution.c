@@ -65,6 +65,7 @@ void countingSort(int* array, int len) {
 
 
 int run() {
+    srand(time(NULL));
     int n = 100000;
     int* arrBubble = calloc(n, sizeof(int));
     int* arrCounting = calloc(n, sizeof(int));
