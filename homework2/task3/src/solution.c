@@ -79,7 +79,7 @@ int run() {
     countingSort(arrCounting, n);
     float endCounting = clock();
     
-    printf("Bubble sort time: %f\n Counting sort time %f\n", (endBubble - startBubble) / CLOCKS_PER_SEC, (endCounting - startCounting) / CLOCKS_PER_SEC);
+    printf("Bubble sort time: %f\nCounting sort time %f\n", (endBubble - startBubble) / CLOCKS_PER_SEC, (endCounting - startCounting) / CLOCKS_PER_SEC);
     free(arrCounting);
     free(arrBubble);
     printf("Press any key to exit...");
