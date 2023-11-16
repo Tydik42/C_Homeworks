@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_solution.c::test_insertionSort</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_solution.c::test_insertionSort_with_negative_numbers</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_solution.c::test_insertionSort_with_duplicates</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_solution.c::test_insertionSort_with_single_element</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_solution.c::test_insertionSort_with_empty_array</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_solution.c::test_insertionSort_with_already_sorted_array</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_solution.c::test_insertionSort_with_reverse_sorted_array</Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_solution.c::test_insertionSort_with_big_number_of_elements</Name>
+		</Test>
+		<Test id="9">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_in_ascending_order</Name>
+		</Test>
+		<Test id="10">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_in_descending_order</Name>
+		</Test>
+		<Test id="11">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_duplicates</Name>
+		</Test>
+		<Test id="12">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_negative_numbers</Name>
+		</Test>
+		<Test id="13">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_single_element</Name>
+		</Test>
+		<Test id="14">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_ten_elements</Name>
+		</Test>
+		<Test id="15">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_odd_number_of_elements</Name>
+		</Test>
+		<Test id="16">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_even_number_of_elements</Name>
+		</Test>
+		<Test id="17">
+			<Name>test/test_solution.c::test_smartQSort_sorts_array_with_big_number_of_elements</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>17</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>
