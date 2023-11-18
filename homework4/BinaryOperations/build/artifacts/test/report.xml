@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_solution.c::test_fromPositiveIntToBinary</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_solution.c::test_fromNegativeIntToBinary</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_solution.c::test_fromBigIntToBinary</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_solution.c::test_fromZeroIntToBinary</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_solution.c::test_fromBinaryToInt</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_solution.c::test_fromNegativeBinaryToInt</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_solution.c::test_binarySum</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>7</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>
