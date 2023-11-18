@@ -1,13 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
-#include <conio.h>
-#include <ctype.h>
 #include "solution.h"
-#define MIN_RAND    -10
-#define MAX_RAND    10
-
 
 /*Получить с клавиатуры два числа, n и k, сгенерировать случайно массив из n чисел, 
  *сгенерировать k случайных целых чисел, для каждого из них проверить, содержится ли оно в массиве. 
@@ -148,22 +139,22 @@ int run(int argc, char *argv[])
     printf("Your array: ");
     for (size_t i = 0; i < arraySize; ++i)
     {
-        printf("%d ", &array[i]);
+        printf("%d ", array[i]);
     }
     printf("\n");
 
     printf("Random numbers: ");
     for (size_t i = 0; i < numberOfRand; ++i)
     {
-        printf("%d ", &arrayOfRand[i]);
+        printf("%d ", arrayOfRand[i]);
     }
-    printf("\n");
+    printf("\n\n");
 
     smartQSort(array, 0, arraySize);
 
     for (size_t i = 0; i < numberOfRand; ++i)
     {
-        printf("Element %d is%s in array \n", &arrayOfRand[i], binarySearch(array, arrayOfRand[i], arraySize) ? "" : " not");
+        printf("Element %d is%s in array \n", arrayOfRand[i], binarySearch(array, arrayOfRand[i], arraySize) ? "" : " not");
     }    
 
     free(array);
