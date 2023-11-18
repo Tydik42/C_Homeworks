@@ -1,12 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
-#include <conio.h>
-#include <ctype.h>
 #include "solution.h"
-#define MIN_RAND    -100
-#define MAX_RAND    100
 
 
 /*Найти наиболее часто встречающийся элемент в массиве быстрее, чем за O(n^2). 
