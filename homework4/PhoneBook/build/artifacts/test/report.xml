@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_solution.c::test_findPhoneByName_should_return_correct_phone_number</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_solution.c::test_findPhoneByName_should_return_null_if_name_not_found</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_solution.c::test_findPhoneByName_should_return_null_if_phonebook_empty</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_solution.c::test_findPhoneByName_should_return_null_if_name_is_empty</Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_solution.c::test_findPhoneByName_should_ignore_case_when_searching</Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_solution.c::test_findPhoneByName_should_return_first_match_if_multiple_names_exist</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_solution.c::test_addRecord_should_add_record_to_phonebook</Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_solution.c::test_addRecord_should_add_multiple_records_to_phonebook</Name>
+		</Test>
+		<Test id="9">
+			<Name>test/test_solution.c::test_addRecord_should_not_add_record_if_phonebook_is_full</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>9</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>

@@ -1,0 +1,51 @@
+---
+:source:
+  :path: test
+  :file: test_solution.c
+:successes:
+- :test: test_findPhoneByName_should_return_correct_phone_number
+  :line: 4
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findPhoneByName_should_return_null_if_name_not_found
+  :line: 17
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findPhoneByName_should_return_null_if_phonebook_empty
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findPhoneByName_should_return_null_if_name_is_empty
+  :line: 39
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findPhoneByName_should_ignore_case_when_searching
+  :line: 52
+  :message: ''
+  :unity_test_time: 0
+- :test: test_findPhoneByName_should_return_first_match_if_multiple_names_exist
+  :line: 65
+  :message: ''
+  :unity_test_time: 0
+- :test: test_addRecord_should_add_record_to_phonebook
+  :line: 78
+  :message: ''
+  :unity_test_time: 0
+- :test: test_addRecord_should_add_multiple_records_to_phonebook
+  :line: 90
+  :message: ''
+  :unity_test_time: 0
+- :test: test_addRecord_should_not_add_record_if_phonebook_is_full
+  :line: 109
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 9
+  :passed: 9
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Phone book is full.
+:time: 0.04570969998894725
