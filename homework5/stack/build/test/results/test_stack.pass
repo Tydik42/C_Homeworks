@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_stack.c
+:successes:
+- :test: test_push
+  :line: 4
+  :message: ''
+  :unity_test_time: 0
+- :test: test_pop
+  :line: 20
+  :message: ''
+  :unity_test_time: 0
+- :test: test_topValue
+  :line: 43
+  :message: ''
+  :unity_test_time: 0
+- :test: test_clearStack
+  :line: 66
+  :message: ''
+  :unity_test_time: 0
+- :test: test_clearStack_emptyStack
+  :line: 77
+  :message: ''
+  :unity_test_time: 0
+- :test: test_clearStack_singleNode
+  :line: 85
+  :message: ''
+  :unity_test_time: 0
+- :test: test_clearStack_multipleNodes
+  :line: 94
+  :message: ''
+  :unity_test_time: 0
+- :test: test_clearStack_largeStack
+  :line: 105
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.11842350000006263
