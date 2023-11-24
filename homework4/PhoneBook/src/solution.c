@@ -21,7 +21,7 @@ void getFileData(const char fileName[], PhoneEntry phonebook[], size_t *numberOf
     {
         return;
     }
-    int cologn = 0;
+    int column = 0;
     while (!feof(file))
     {
         char buffer[BUFFER_SIZE];
@@ -30,7 +30,7 @@ void getFileData(const char fileName[], PhoneEntry phonebook[], size_t *numberOf
         {
             break;
         }
-        if (cologn == 0)
+        if (column == 0)
         {
             strcpy_s(phonebook[*numberOfRecords].name, NAME_SIZE, buffer);
         }
@@ -39,7 +39,7 @@ void getFileData(const char fileName[], PhoneEntry phonebook[], size_t *numberOf
             strcpy_s(phonebook[*numberOfRecords].phone, PHONE_SIZE, buffer);
             ++*numberOfRecords;
         }
-        cologn ^= 1;
+        column ^= 1;
     }
     fclose(file);
 }
