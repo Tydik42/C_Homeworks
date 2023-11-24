@@ -1,5 +1,5 @@
 #include "stack.h"
-void push(stack** head, char value) 
+void push(stack** head, const char value) 
 {
     stack* buf = malloc(sizeof(stack));
     if (buf == NULL) {
